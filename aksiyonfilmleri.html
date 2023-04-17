@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+   <link rel="stylesheet" href="resimler.css" type="text/css"> 
+    <link rel="stylesheet" href="navbar.css" type="text/css">
+    <title>Aksiyon Filmleri</title>
+      
+  </head>
+  
+  <body>
+       <header>
+      <nav class="navbar">
+        <div class="navbar__logo">
+          <a href="#">Logo</a>
+        </div>
+        <ul class="navbar__list">
+          <li class="navbar__item"><a href="index.html">Ana Sayfa</a></li>
+          <li class="navbar__item"><a href="#">Filmler</a></li>
+          <li class="navbar__item"><a href="#">Hakkımızda</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h2>Aksiyon Filmleri</h2>
+    <table>
+      <tr>
+        <th>Film Adı</th>
+        <th>Yönetmen</th>
+        <th>Yapım Yılı</th>
+        <th>Açıklama</th>
+        <th>Puan</th>
+      </tr>
+      <include "aksiyonfilmleri.php"> </include>
+    </table>
+               
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
